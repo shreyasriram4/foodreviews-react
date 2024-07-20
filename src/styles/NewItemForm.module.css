@@ -1,0 +1,43 @@
+/* styles/NewItemForm.module.css */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: dotted 14px #ff8383;
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #9facf5;
+  }
+
+  .textarea {
+    padding: 10px;
+    background-color: #f3ebd1;
+    width: 60%;
+    margin-bottom: 5px;
+    height: 70px;
+    resize: none;
+    border: 0px;
+    border-radius: 5px;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button {
+    background-color: #D50000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .button:hover {
+    background-color: #f85e5e;
+  }
+  

@@ -1,0 +1,79 @@
+/* styles/Home.module.css */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+  grid-gap: 25px; /* Space between grid items */
+  padding: 35px;
+  background-color: #f3ebd1; /* Light background for the container */
+  justify-content: center; /* Center grid items horizontally */
+  max-width: 1700px; /* Optional: max width of the container */
+  margin: auto; /* Center the container on the page */
+}
+
+.card {
+  display: flex;
+  flex-direction: row; /* Ensures the image and details are side by side */
+  align-items: center;
+  justify-content: center; 
+  background-color: #374281;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.image {
+  width: 40%; /* Adjust size as necessary */
+  max-width: 200px; /* Ensures the image does not grow too large */
+  max-height: 200px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.details {
+  padding: 15px;
+  width: 60%; /* Adjust size to fill remaining space */
+}
+
+.title {
+  color: #FFC107;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #D50000; /* In-N-Out red */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Roboto Slab', serif;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #FFC107; /* In-N-Out yellow */
+}
+
+.addButton {
+  background-color: #D50000; /* Green background */
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.addButton:hover {
+  background-color: #FFC107;
+}

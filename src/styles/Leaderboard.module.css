@@ -1,0 +1,69 @@
+/* styles/Leaderboard.module.css */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.leaderboard {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    color:#374281;
+    margin: 0;
+  }
+
+  .title{
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #f3ebd1;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-left: 0px;
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .listItem span {
+    flex: 1;
+  }
+
+  .listItem:nth-child(even) {
+    background-color: #d0d7ff;  /* Light gray for even rows */
+  }
+  
+  .listItem:nth-child(odd) {
+    background-color: #ffffff;  /* White for odd rows */
+  }
+  
+  .rank, .name, .rating {
+    flex: 1;
+    
+  }
+  
+  .upvoteButton {
+    background-color: #D50000; /* In-N-Out red */
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+  }
+
+  .upvoteButton:hover {
+    background-color: #FFC107; /* In-N-Out yellow */
+  }
+  

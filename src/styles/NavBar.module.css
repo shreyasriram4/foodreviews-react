@@ -1,0 +1,22 @@
+/* components/NavBar.module.css */
+.navbar {
+    background-color: #D50000; /* In-N-Out red */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-block; /* Important for padding and centering */
+  }
+  
+  .link:hover {
+    background-color: #FFC107; /* In-N-Out yellow */
+  }
+  
