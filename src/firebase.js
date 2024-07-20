@@ -6,13 +6,13 @@ import { initializeApp, getApps } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyC-KgZAzycZwh2VR3sazhbRXT6Eio0hj9A",
-    authDomain: "in-and-out-bda1f.firebaseapp.com",
-    projectId: "in-and-out-bda1f",
-    storageBucket: "in-and-out-bda1f.appspot.com",
-    messagingSenderId: "127650798893",
-    appId: "1:127650798893:web:6cd63d53c033fee98447a4",
-    measurementId: "G-0M10P3TZQR"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
 
 // Initialize Firebase
